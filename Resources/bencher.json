@@ -1,0 +1,28 @@
+{
+	"nbTables":2,
+	"fields":
+	{
+		"alpha":5,
+		"text":2,
+		"real":4,
+		"integer":3,
+		"longint":3,
+		"bool":4,
+		"blob":2,
+		"date":3,
+		"uuid":2,
+		"object":3
+	},
+	"indexedFields":
+	{
+		"alpha":5,
+		"text":2,
+		"real":4,
+		"integer":3,
+		"longint":3,
+		"bool":4,
+		"date":3,
+		"uuid":2,
+		"object":2
+	}
+}

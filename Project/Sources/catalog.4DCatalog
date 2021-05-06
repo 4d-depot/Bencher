@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="Bencher" uuid="E11EAB5CAD82624C890EF2D441552251" collation_locale="fr">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="table1" uuid="D05228C36310C24D8E02C5D670954EA6" id="1">
+		<field name="ID" uuid="72095F3A592E6B4AA518D5C2D0314A9F" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="alpha_field1" uuid="92B96286A5481A4A96E8BAF7E4F2C565" type="10" limiting_length="255" id="2"/>
+		<field name="alpha_field2" uuid="81FE560EFEF3FC47AD0FB754DDE61440" type="10" limiting_length="255" id="3"/>
+		<field name="alpha_field3" uuid="D1CC7CB49351CF4A848A82A1BDD51A28" type="10" limiting_length="255" id="4"/>
+		<field name="alpha_field4" uuid="544C9F3ECC79E9478D4B370D2078E106" type="10" limiting_length="255" id="5"/>
+		<field name="alpha_field5" uuid="91D8AF60B109E04B9ECB9D6D02A4B1B2" type="10" limiting_length="255" id="6"/>
+		<field name="text_field6" uuid="E26C891A24577C4387771C45DDF3F946" type="14" id="7"/>
+		<field name="text_field7" uuid="2B898BFD0083AB499EB66B2AE14EA37A" type="14" id="8"/>
+		<field name="real_field8" uuid="CBA8C526C80B2440AEF0871DB8C50634" type="6" id="9"/>
+		<field name="real_field9" uuid="9447F8AEA565854D97D632808E36EA6F" type="6" id="10"/>
+		<field name="real_field10" uuid="579AA11861E75A4E9BBAD20B86199990" type="6" id="11"/>
+		<field name="real_field11" uuid="473F09A1131E704F9E91A61323D14913" type="6" id="12"/>
+		<field name="integer_field12" uuid="B4D1C7B34C86D24CAD4AB51E29C5599D" type="3" id="13"/>
+		<field name="integer_field13" uuid="86CACE8DE02A8E409CB192207AD73E7C" type="3" id="14"/>
+		<field name="integer_field14" uuid="02C9B3EC00C02444857E973589328722" type="3" id="15"/>
+		<field name="longint_field15" uuid="C1D42EFA18AD224084A9FE368AB6B95C" type="3" id="16"/>
+		<field name="longint_field16" uuid="51494E7B9D560D429884253BFF9D36BD" type="3" id="17"/>
+		<field name="longint_field17" uuid="540782B19B23DA488312CEF5202235A8" type="3" id="18"/>
+		<field name="bool_field18" uuid="69F2A8B89F60814FA8B3EF2744F02E7B" type="1" id="19"/>
+		<field name="bool_field19" uuid="7CB6C141CECB624881650FB0182B4CF0" type="1" id="20"/>
+		<field name="bool_field20" uuid="8A2AE0E7CBFAA8408D6862609C8DF2F9" type="1" id="21"/>
+		<field name="bool_field21" uuid="E21B60898EAF0C41AA85CB6F9393A11C" type="1" id="22"/>
+		<field name="blob_field22" uuid="9D1DF9550C00644395A9C7806362145C" type="18" id="23"/>
+		<field name="blob_field23" uuid="CCA39B966E32FD44963AFBA017E25D1F" type="18" id="24"/>
+		<field name="date_field24" uuid="4C90D889E1D1904088E3286306F145A4" type="8" id="25"/>
+		<field name="date_field25" uuid="80209A4875212B49ADEE9E465CF0C874" type="8" id="26"/>
+		<field name="date_field26" uuid="62A4C79FCBD97B4C9CEFC588DB1CFDF2" type="8" id="27"/>
+		<field name="uuid_field27" uuid="943AC617D05CAC4993EB43400AB6E888" type="10" store_as_UUID="true" id="28"/>
+		<field name="uuid_field28" uuid="A8EFB838096BB34AB3749030A5EA181B" type="10" store_as_UUID="true" id="29"/>
+		<field name="object_field29" uuid="87B404E2D4E6A54BB6720E52CA0E0B47" type="21" id="30"/>
+		<field name="object_field30" uuid="4D5548E9F01333498CA4DB9CC2825787" type="21" id="31"/>
+		<field name="object_field31" uuid="ACCD4068C85B7A4EA0B02945D5B70065" type="21" id="32"/>
+		<field name="alpha_field32" uuid="132FE8C2A705FD4AA59298EDB2854CB5" type="10" limiting_length="255" id="33"/>
+		<field name="alpha_field33" uuid="724B5515285A0C41BB5773F55BB2099A" type="10" limiting_length="255" id="34"/>
+		<field name="alpha_field34" uuid="4DB16F416569014FA51D4DFF3AE9AB65" type="10" limiting_length="255" id="35"/>
+		<field name="alpha_field35" uuid="62BE018B3EB99F4D82165104E40A70BF" type="10" limiting_length="255" id="36"/>
+		<field name="alpha_field36" uuid="FB7A80355820AD478DBA973D085D9B20" type="10" limiting_length="255" id="37"/>
+		<field name="text_field37" uuid="E38FAFE5BFF3AF4D89C34BFD758676C3" type="14" id="38"/>
+		<field name="text_field38" uuid="CEDCFD45A83AEF47B38D13CC0E868D5C" type="14" id="39"/>
+		<field name="real_field39" uuid="A115798C2F304C4E8E61D85068D02BAD" type="6" id="40"/>
+		<field name="real_field40" uuid="0516D6695B749C49BFB560F01C062D09" type="6" id="41"/>
+		<field name="real_field41" uuid="39D577FBE8A47341B7D803B88B681EBB" type="6" id="42"/>
+		<field name="real_field42" uuid="97F4E9D27509D84C8751C0B9F798B300" type="6" id="43"/>
+		<field name="integer_field43" uuid="5735CDCBA8EFE545B52978F9FF6DFC95" type="3" id="44"/>
+		<field name="integer_field44" uuid="525031A8E88C9C44B5E2A94BF135E9F0" type="3" id="45"/>
+		<field name="integer_field45" uuid="5A5C51A5994E26438196A46322CF6E5D" type="3" id="46"/>
+		<field name="longint_field46" uuid="1BBFCAC279DDD146A3ED444ADEF4CB0D" type="3" id="47"/>
+		<field name="longint_field47" uuid="9FE66CE307327644BC2F03D6092A8189" type="3" id="48"/>
+		<field name="longint_field48" uuid="E73D28C438157F4C9485E0A84F8CD42D" type="3" id="49"/>
+		<field name="bool_field49" uuid="10C772E60A9F1942B623ED6575F11C58" type="1" id="50"/>
+		<field name="bool_field50" uuid="62EAC7261029B141A5653E3FECD4337C" type="1" id="51"/>
+		<field name="bool_field51" uuid="02AF3D6890335C4DB94386313045293F" type="1" id="52"/>
+		<field name="bool_field52" uuid="25E03D0A5B0763449A9B8515BD4158CE" type="1" id="53"/>
+		<field name="date_field53" uuid="D7108B24FB14CD4CB41F3C3300CD40C0" type="8" id="54"/>
+		<field name="date_field54" uuid="DFBADF8F7AD703488D64E045C56CB1B8" type="8" id="55"/>
+		<field name="date_field55" uuid="7F54081B741F86498004F28F0ED8A739" type="8" id="56"/>
+		<field name="uuid_field56" uuid="4DEFBF164A58A0438B29B056372DCFFC" type="10" store_as_UUID="true" id="57"/>
+		<field name="uuid_field57" uuid="19558913BB02D0478EBB36611E5148F6" type="10" store_as_UUID="true" id="58"/>
+		<field name="object_field58" uuid="8DA28E98BD988A419F4A68C695685995" type="21" id="59"/>
+		<field name="object_field59" uuid="A35774C1B1310D418824F5B56ECB5DC7" type="21" id="60"/>
+		<primary_key field_name="ID" field_uuid="72095F3A592E6B4AA518D5C2D0314A9F"/>
+		<table_extra>
+			<editor_table_info fields_ordering="1" displayable_fields_count="60">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="40" top="40" width="546" height="1320.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="table2" uuid="95226DC52E3D9F4CA2AB2BA730AD2597" id="2">
+		<field name="ID" uuid="2006F2F66834F544985158C2DF64A056" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="alpha_field1" uuid="C7853A64E93A0A44993D21C83DEFFC05" type="10" limiting_length="255" id="2"/>
+		<field name="alpha_field2" uuid="BB0A104FBCBE9E4885A5A0FCB4739BBC" type="10" limiting_length="255" id="3"/>
+		<field name="alpha_field3" uuid="500803EE2BD7B9408646D37D07D1AE4A" type="10" limiting_length="255" id="4"/>
+		<field name="alpha_field4" uuid="3DE094714AD83B49BF55F7F8A0EA9813" type="10" limiting_length="255" id="5"/>
+		<field name="alpha_field5" uuid="AEAFA69C01F4B447936AD584934F0E1E" type="10" limiting_length="255" id="6"/>
+		<field name="text_field6" uuid="474665E696119D4B958D3EDE8E2D69B4" type="14" id="7"/>
+		<field name="text_field7" uuid="F136FB2D16A8E34DAEB206F7ECC9290F" type="14" id="8"/>
+		<field name="real_field8" uuid="D7A3A717AEC09241809CBEF51216E2CA" type="6" id="9"/>
+		<field name="real_field9" uuid="F7B5FE331164694AA0626EBF5882F17C" type="6" id="10"/>
+		<field name="real_field10" uuid="CEFB59A49A627B489ECB10E0F8DBEE6E" type="6" id="11"/>
+		<field name="real_field11" uuid="BA6D163E86328A4A826A9B5151F8CFAB" type="6" id="12"/>
+		<field name="integer_field12" uuid="AED94F0CDCB2F645A595C43C61FBE086" type="3" id="13"/>
+		<field name="integer_field13" uuid="4BE7BE3804F6E94AB1F1A4658B7482F4" type="3" id="14"/>
+		<field name="integer_field14" uuid="8261BD80995BCF4BA9CF853D3A2E14D2" type="3" id="15"/>
+		<field name="longint_field15" uuid="89196FEB0CEFC643946BBCF602E30D9D" type="3" id="16"/>
+		<field name="longint_field16" uuid="9A750A7C014D564AB95449A6F11E4959" type="3" id="17"/>
+		<field name="longint_field17" uuid="F63CE7F301FEB9468CB12D19F32231EF" type="3" id="18"/>
+		<field name="bool_field18" uuid="295D7250B208F446AEC091B56A98057E" type="1" id="19"/>
+		<field name="bool_field19" uuid="9054DFC5036C364786CF4812A62B93AD" type="1" id="20"/>
+		<field name="bool_field20" uuid="7033F81ED8A9CA4B9CF36DA5BFCE19D3" type="1" id="21"/>
+		<field name="bool_field21" uuid="5CCCA4B6ED90B544BD22557E8CAC6284" type="1" id="22"/>
+		<field name="blob_field22" uuid="DC94772D6DAAA547AB3BEFE72CD9707D" type="18" id="23"/>
+		<field name="blob_field23" uuid="AD5855627B281C478021BCF80B493CAE" type="18" id="24"/>
+		<field name="date_field24" uuid="BF84E8B884FE4D4CA22F5FB015A7F01D" type="8" id="25"/>
+		<field name="date_field25" uuid="2FA9EA86B68B1A49899F9AACD74F1B11" type="8" id="26"/>
+		<field name="date_field26" uuid="1F8067E7B4E2924A939C8CC469FE825A" type="8" id="27"/>
+		<field name="uuid_field27" uuid="2240B56FB516F04FB247ACF41D8772B5" type="10" store_as_UUID="true" id="28"/>
+		<field name="uuid_field28" uuid="47E7D8DD8BB45D428FBD7B6300E1235D" type="10" store_as_UUID="true" id="29"/>
+		<field name="object_field29" uuid="7E12E566792B044391250ECD240241F0" type="21" id="30"/>
+		<field name="object_field30" uuid="A973BCDF7FCB0B44B166366689FFF3D2" type="21" id="31"/>
+		<field name="object_field31" uuid="BD655798FC5AEC468820CA60E3D95696" type="21" id="32"/>
+		<field name="alpha_field32" uuid="8CEAE112C99D264A9AF898D472794B30" type="10" limiting_length="255" id="33"/>
+		<field name="alpha_field33" uuid="E9A4A129C9E6CB43B911385216FF50D2" type="10" limiting_length="255" id="34"/>
+		<field name="alpha_field34" uuid="7842C3C6EF6755429A290C2A29955995" type="10" limiting_length="255" id="35"/>
+		<field name="alpha_field35" uuid="291DFFCEB5D59548B46344BC8CC89A1B" type="10" limiting_length="255" id="36"/>
+		<field name="alpha_field36" uuid="26AD85F44EF377478A7133DA7A27A1D5" type="10" limiting_length="255" id="37"/>
+		<field name="text_field37" uuid="EFC93DC798BF01418C4EFA4BCD7A4650" type="14" id="38"/>
+		<field name="text_field38" uuid="377F0D80F253C24196BA88CD75F81367" type="14" id="39"/>
+		<field name="real_field39" uuid="6F3BF38C06B59743A3F6878845B3D6C2" type="6" id="40"/>
+		<field name="real_field40" uuid="025D9E7D93450742A0AFD5DE8B2757C6" type="6" id="41"/>
+		<field name="real_field41" uuid="B9C79C5062DEA64CAAE3CB402195D773" type="6" id="42"/>
+		<field name="real_field42" uuid="E592E18928A7ED49820AD54FB646BB66" type="6" id="43"/>
+		<field name="integer_field43" uuid="A9FF04F6D0DB0A4D9D98BA6C96E850AF" type="3" id="44"/>
+		<field name="integer_field44" uuid="69FD4FEB1D628245BA3E5BD2FB81DA04" type="3" id="45"/>
+		<field name="integer_field45" uuid="48A5F8AFD247484E8D31ACD036F4AE0B" type="3" id="46"/>
+		<field name="longint_field46" uuid="2101C62011F2EE43B4B49BCC610D4795" type="3" id="47"/>
+		<field name="longint_field47" uuid="9C55B9C4BCBCEC4A9538672B6D946DF8" type="3" id="48"/>
+		<field name="longint_field48" uuid="13ADCD269C181446877230F2B89CCBBE" type="3" id="49"/>
+		<field name="bool_field49" uuid="FC9484451C56FA48823B8B10AA8B536F" type="1" id="50"/>
+		<field name="bool_field50" uuid="A3979983D08EA4449F18A75DC0DA9732" type="1" id="51"/>
+		<field name="bool_field51" uuid="0E2106A36C21C541A9557B9B1927FDE6" type="1" id="52"/>
+		<field name="bool_field52" uuid="9923D2CA332BAB4796C2B513ECD09B30" type="1" id="53"/>
+		<field name="date_field53" uuid="35C8F4C170C6E941BF83111D6343F926" type="8" id="54"/>
+		<field name="date_field54" uuid="476F2691387485408B0EDFB241F4F595" type="8" id="55"/>
+		<field name="date_field55" uuid="E710D41B59F00245A949182B72F1D462" type="8" id="56"/>
+		<field name="uuid_field56" uuid="33C49ED57AA269499095331C751AEB6A" type="10" store_as_UUID="true" id="57"/>
+		<field name="uuid_field57" uuid="0B369839C93C014AA513D8F95A6F05FA" type="10" store_as_UUID="true" id="58"/>
+		<field name="object_field58" uuid="1BE7044A7803FC4DAE31551C74F1C6F7" type="21" id="59"/>
+		<field name="object_field59" uuid="2D68FA23C598FF4E98EE0875E0F26BC7" type="21" id="60"/>
+		<primary_key field_name="ID" field_uuid="2006F2F66834F544985158C2DF64A056"/>
+		<table_extra>
+			<editor_table_info fields_ordering="1" displayable_fields_count="61">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="647" top="37" width="523" height="1322.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<index kind="regular" uuid="0057659019D82B4AA12D62AD6DF03CAA" type="7">
+		<field_ref uuid="62EAC7261029B141A5653E3FECD4337C" name="bool_field50">
+			<table_ref uuid="D05228C36310C24D8E02C5D670954EA6" name="table1"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="06EF6D4DBE38EB4984A4AC44097D2521" type="7">
+		<field_ref uuid="0E2106A36C21C541A9557B9B1927FDE6" name="bool_field51">
+			<table_ref uuid="95226DC52E3D9F4CA2AB2BA730AD2597" name="table2"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="08EBEAC2B39A10478FD7252100684C1B" type="7">
+		<field_ref uuid="19558913BB02D0478EBB36611E5148F6" name="uuid_field57">
+			<table_ref uuid="D05228C36310C24D8E02C5D670954EA6" name="table1"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="0EDEE3EE6AD3954185BEFEA1C5002CFA" type="7">
+		<field_ref uuid="FC9484451C56FA48823B8B10AA8B536F" name="bool_field49">
+			<table_ref uuid="95226DC52E3D9F4CA2AB2BA730AD2597" name="table2"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="0FBEA61D7DA17144AD8CEC4FD1ED2047" type="7">
+		<field_ref uuid="4DEFBF164A58A0438B29B056372DCFFC" name="uuid_field56">
+			<table_ref uuid="D05228C36310C24D8E02C5D670954EA6" name="table1"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="1351C80B330EFA4985F6A064BB3CCF97" type="3">
+		<field_ref uuid="8DA28E98BD988A419F4A68C695685995" name="object_field58">
+			<table_ref uuid="D05228C36310C24D8E02C5D670954EA6" name="table1"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="1A57D1800B3312488C3C5DB5F399A43D" type="7">
+		<field_ref uuid="35C8F4C170C6E941BF83111D6343F926" name="date_field53">
+			<table_ref uuid="95226DC52E3D9F4CA2AB2BA730AD2597" name="table2"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="235BD447187D4045AABBBD9FC68899EE" type="7">
+		<field_ref uuid="E73D28C438157F4C9485E0A84F8CD42D" name="longint_field48">
+			<table_ref uuid="D05228C36310C24D8E02C5D670954EA6" name="table1"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="2660181A6C3C844FBA655933EF666008" type="7">
+		<field_ref uuid="8CEAE112C99D264A9AF898D472794B30" name="alpha_field32">
+			<table_ref uuid="95226DC52E3D9F4CA2AB2BA730AD2597" name="table2"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="31768E0C9A569D499E1C7188C37CD4E6" type="7">
+		<field_ref uuid="7F54081B741F86498004F28F0ED8A739" name="date_field55">
+			<table_ref uuid="D05228C36310C24D8E02C5D670954EA6" name="table1"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="31DA3C921897474CB64825B2A5EAF7AB" type="7">
+		<field_ref uuid="10C772E60A9F1942B623ED6575F11C58" name="bool_field49">
+			<table_ref uuid="D05228C36310C24D8E02C5D670954EA6" name="table1"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="38B7783CBD61334E86E2B8FB88B2E3D6" type="7">
+		<field_ref uuid="25E03D0A5B0763449A9B8515BD4158CE" name="bool_field52">
+			<table_ref uuid="D05228C36310C24D8E02C5D670954EA6" name="table1"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="3990939D35AEF742A1E35CC89B29ACD0" type="7">
+		<field_ref uuid="69FD4FEB1D628245BA3E5BD2FB81DA04" name="integer_field44">
+			<table_ref uuid="95226DC52E3D9F4CA2AB2BA730AD2597" name="table2"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="41BE36E57324474D9043F7A125E5B6CE" type="7">
+		<field_ref uuid="5A5C51A5994E26438196A46322CF6E5D" name="integer_field45">
+			<table_ref uuid="D05228C36310C24D8E02C5D670954EA6" name="table1"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="431C43EB46EE17409812EE0FD598CEAF" type="7">
+		<field_ref uuid="02AF3D6890335C4DB94386313045293F" name="bool_field51">
+			<table_ref uuid="D05228C36310C24D8E02C5D670954EA6" name="table1"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="553E298F6B9E0D45B3C6199E7E63999F" type="7">
+		<field_ref uuid="48A5F8AFD247484E8D31ACD036F4AE0B" name="integer_field45">
+			<table_ref uuid="95226DC52E3D9F4CA2AB2BA730AD2597" name="table2"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="55F09A42FF51BC479C0CE59451CBCE39" type="7">
+		<field_ref uuid="39D577FBE8A47341B7D803B88B681EBB" name="real_field41">
+			<table_ref uuid="D05228C36310C24D8E02C5D670954EA6" name="table1"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="57437F7AA0F5E148A458ECA5A080C9EF" type="7">
+		<field_ref uuid="D7108B24FB14CD4CB41F3C3300CD40C0" name="date_field53">
+			<table_ref uuid="D05228C36310C24D8E02C5D670954EA6" name="table1"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="6112F000481BF140B5782A0E44929BE7" type="7">
+		<field_ref uuid="0516D6695B749C49BFB560F01C062D09" name="real_field40">
+			<table_ref uuid="D05228C36310C24D8E02C5D670954EA6" name="table1"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="651D0BAA722D7348AF2F76DBC816C8E5" type="7">
+		<field_ref uuid="A9FF04F6D0DB0A4D9D98BA6C96E850AF" name="integer_field43">
+			<table_ref uuid="95226DC52E3D9F4CA2AB2BA730AD2597" name="table2"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="6591F28A580FCC438D867981EAFF9DE0" type="7">
+		<field_ref uuid="A3979983D08EA4449F18A75DC0DA9732" name="bool_field50">
+			<table_ref uuid="95226DC52E3D9F4CA2AB2BA730AD2597" name="table2"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="678AE9D59470484797194742405D07CA" type="7">
+		<field_ref uuid="6F3BF38C06B59743A3F6878845B3D6C2" name="real_field39">
+			<table_ref uuid="95226DC52E3D9F4CA2AB2BA730AD2597" name="table2"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="6B4ED0ED7B8CAE44987E3A1B2AFBB324" type="7">
+		<field_ref uuid="132FE8C2A705FD4AA59298EDB2854CB5" name="alpha_field32">
+			<table_ref uuid="D05228C36310C24D8E02C5D670954EA6" name="table1"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="7649FF2498E48548BDCF3C38F18D69DD" type="7">
+		<field_ref uuid="5735CDCBA8EFE545B52978F9FF6DFC95" name="integer_field43">
+			<table_ref uuid="D05228C36310C24D8E02C5D670954EA6" name="table1"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="76F4787E97951A41B75FEBF18829717B" type="3">
+		<field_ref uuid="1BE7044A7803FC4DAE31551C74F1C6F7" name="object_field58">
+			<table_ref uuid="95226DC52E3D9F4CA2AB2BA730AD2597" name="table2"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="81D5BE562C17A844A750B8AC36313CD7" type="7">
+		<field_ref uuid="E710D41B59F00245A949182B72F1D462" name="date_field55">
+			<table_ref uuid="95226DC52E3D9F4CA2AB2BA730AD2597" name="table2"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="81E1A462CFCE8D4C8CC44ED078BC73EF" type="7">
+		<field_ref uuid="724B5515285A0C41BB5773F55BB2099A" name="alpha_field33">
+			<table_ref uuid="D05228C36310C24D8E02C5D670954EA6" name="table1"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="81F9BBCB0DD1064589C073ED71A14655" type="3">
+		<field_ref uuid="2D68FA23C598FF4E98EE0875E0F26BC7" name="object_field59">
+			<table_ref uuid="95226DC52E3D9F4CA2AB2BA730AD2597" name="table2"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="870247CC58459348BF820BB7D02D50F1" type="7">
+		<field_ref uuid="13ADCD269C181446877230F2B89CCBBE" name="longint_field48">
+			<table_ref uuid="95226DC52E3D9F4CA2AB2BA730AD2597" name="table2"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="8F0D8B1A0D32054BA6AD4270F3C1AAC0" type="7">
+		<field_ref uuid="025D9E7D93450742A0AFD5DE8B2757C6" name="real_field40">
+			<table_ref uuid="95226DC52E3D9F4CA2AB2BA730AD2597" name="table2"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="92C0A1F5BC130845B0C24BC11E7526D8" type="7">
+		<field_ref uuid="97F4E9D27509D84C8751C0B9F798B300" name="real_field42">
+			<table_ref uuid="D05228C36310C24D8E02C5D670954EA6" name="table1"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="931890BF7E3112488926484294BC1BDB" type="3">
+		<field_ref uuid="A35774C1B1310D418824F5B56ECB5DC7" name="object_field59">
+			<table_ref uuid="D05228C36310C24D8E02C5D670954EA6" name="table1"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="94066E2906CAC245AA5E937CCEC3FDD5" type="7">
+		<field_ref uuid="E592E18928A7ED49820AD54FB646BB66" name="real_field42">
+			<table_ref uuid="95226DC52E3D9F4CA2AB2BA730AD2597" name="table2"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="9B192E137F2D6F4DBC37321FE4154B9B" type="7">
+		<field_ref uuid="1BBFCAC279DDD146A3ED444ADEF4CB0D" name="longint_field46">
+			<table_ref uuid="D05228C36310C24D8E02C5D670954EA6" name="table1"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="A1A29AE97A510948B1B1C07729C0C3E6" type="1">
+		<field_ref uuid="72095F3A592E6B4AA518D5C2D0314A9F" name="ID">
+			<table_ref uuid="D05228C36310C24D8E02C5D670954EA6" name="table1"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="A311042627C6DC4E8BEC5A10344DC58B" type="7">
+		<field_ref uuid="291DFFCEB5D59548B46344BC8CC89A1B" name="alpha_field35">
+			<table_ref uuid="95226DC52E3D9F4CA2AB2BA730AD2597" name="table2"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="B04DDA449C11364FB5E9AC77442A98CB" type="7">
+		<field_ref uuid="9C55B9C4BCBCEC4A9538672B6D946DF8" name="longint_field47">
+			<table_ref uuid="95226DC52E3D9F4CA2AB2BA730AD2597" name="table2"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="B5B8233A3D4B1A4A882C214EA6B87CBD" type="7">
+		<field_ref uuid="7842C3C6EF6755429A290C2A29955995" name="alpha_field34">
+			<table_ref uuid="95226DC52E3D9F4CA2AB2BA730AD2597" name="table2"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="B8DC09D8A88843439280D781FD83E169" type="7">
+		<field_ref uuid="476F2691387485408B0EDFB241F4F595" name="date_field54">
+			<table_ref uuid="95226DC52E3D9F4CA2AB2BA730AD2597" name="table2"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="BBF57867ED1E534FBA042C6D4C5337DD" type="7">
+		<field_ref uuid="26AD85F44EF377478A7133DA7A27A1D5" name="alpha_field36">
+			<table_ref uuid="95226DC52E3D9F4CA2AB2BA730AD2597" name="table2"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="C67AD951AE701C4385AC3F5EB63FC5B3" type="7">
+		<field_ref uuid="2101C62011F2EE43B4B49BCC610D4795" name="longint_field46">
+			<table_ref uuid="95226DC52E3D9F4CA2AB2BA730AD2597" name="table2"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="CC1408C611BF914BBDE7642CE2B1CF0A" type="7">
+		<field_ref uuid="B9C79C5062DEA64CAAE3CB402195D773" name="real_field41">
+			<table_ref uuid="95226DC52E3D9F4CA2AB2BA730AD2597" name="table2"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="CE25823FE0CF6F4D9F485F4CCA2713D5" type="7">
+		<field_ref uuid="A115798C2F304C4E8E61D85068D02BAD" name="real_field39">
+			<table_ref uuid="D05228C36310C24D8E02C5D670954EA6" name="table1"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="D14F05C55E18FE49905719B899E0FD5F" type="7">
+		<field_ref uuid="33C49ED57AA269499095331C751AEB6A" name="uuid_field56">
+			<table_ref uuid="95226DC52E3D9F4CA2AB2BA730AD2597" name="table2"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="D78B65A57DA60B419147E4116763BE88" type="7">
+		<field_ref uuid="FB7A80355820AD478DBA973D085D9B20" name="alpha_field36">
+			<table_ref uuid="D05228C36310C24D8E02C5D670954EA6" name="table1"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="DA3ECEDB590A044F8A8913B019AEF7BC" type="7">
+		<field_ref uuid="E9A4A129C9E6CB43B911385216FF50D2" name="alpha_field33">
+			<table_ref uuid="95226DC52E3D9F4CA2AB2BA730AD2597" name="table2"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="DEF819D8A7D5844D9DF4C3CA7ABBB3E6" type="7">
+		<field_ref uuid="9FE66CE307327644BC2F03D6092A8189" name="longint_field47">
+			<table_ref uuid="D05228C36310C24D8E02C5D670954EA6" name="table1"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="DFC655BCCD32214F9789819B21F12903" type="7">
+		<field_ref uuid="0B369839C93C014AA513D8F95A6F05FA" name="uuid_field57">
+			<table_ref uuid="95226DC52E3D9F4CA2AB2BA730AD2597" name="table2"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="E6809F9976A3BB4A90054E350632D566" type="1">
+		<field_ref uuid="2006F2F66834F544985158C2DF64A056" name="ID">
+			<table_ref uuid="95226DC52E3D9F4CA2AB2BA730AD2597" name="table2"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="E9067CB1CCF4FF4487BE39DD06A1FC59" type="7">
+		<field_ref uuid="62BE018B3EB99F4D82165104E40A70BF" name="alpha_field35">
+			<table_ref uuid="D05228C36310C24D8E02C5D670954EA6" name="table1"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="EA035D051A53044180E6543EE1FAB72C" type="7">
+		<field_ref uuid="DFBADF8F7AD703488D64E045C56CB1B8" name="date_field54">
+			<table_ref uuid="D05228C36310C24D8E02C5D670954EA6" name="table1"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="EB85F7093D6CFC4F8F65344AC44CE06B" type="7">
+		<field_ref uuid="525031A8E88C9C44B5E2A94BF135E9F0" name="integer_field44">
+			<table_ref uuid="D05228C36310C24D8E02C5D670954EA6" name="table1"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="ECCDA401FCAE3D4AA9C69BF0DC65F768" type="7">
+		<field_ref uuid="9923D2CA332BAB4796C2B513ECD09B30" name="bool_field52">
+			<table_ref uuid="95226DC52E3D9F4CA2AB2BA730AD2597" name="table2"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="F4D55EAD67531D41BC00DED48F914A08" type="7">
+		<field_ref uuid="4DB16F416569014FA51D4DFF3AE9AB65" name="alpha_field34">
+			<table_ref uuid="D05228C36310C24D8E02C5D670954EA6" name="table1"/>
+		</field_ref>
+	</index>
+	<base_extra __stringCompHash="icu:68.1.0" __keywordBuildingHash="icu:68.1.0"/>
+</base>

@@ -1,0 +1,232 @@
+body {
+    font-family: Roboto Medium, Roboto, sans-serif;
+    display:flex;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width:800px;
+    flex-direction: column;
+    align-items: left;
+}
+
+.header {
+    margin:10px;
+    /*
+    margin-left: auto;
+    margin-right: auto;
+    */
+    background-color: #d0d0d0;
+    width: 100%;
+    height:80px;
+    display: flex;
+    padding-left: 15px;
+}
+
+.title {
+    font-size: 30px;
+    /* padding: auto; */
+    margin: auto;
+}
+
+.admin, .startingActions, .infos {
+    margin:10px;
+    /*
+    margin-left: auto;
+    margin-right: auto;
+    */
+    background-color: #f0f0f0;
+    width: 100%;
+    /* height:80px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.displayServerInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin:5px;
+    margin-left: 40px;
+}
+
+.admin.vertical, .infos.vertical {
+    flex-direction: column;
+    align-items: baseline;
+    height: fit-content;
+}
+
+.infos.vertical {
+    padding: 5px;
+}
+
+.cache {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.cacheinfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 30px;
+    padding-bottom: 12px;
+}
+
+.action {
+    margin: 10px;
+     /*
+    margin-top: auto;
+    margin-bottom: auto;
+    */
+    background-color:#2780e3;
+    border-color: #2780e3;
+    border-radius: 8px;
+    color:white;
+    padding-left: 12px;
+    padding-right: 16px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    display: inline;
+    height: 30px;
+}
+
+.action:hover {
+    background-color:#8dbef5;
+}
+
+.action:active {
+    color:black;
+}
+
+.action:focus {
+    outline: none;
+}
+
+#reqPerSec {
+    font-weight: bold;
+    margin-left: 0.4em;
+    margin-right: 0.4em;
+}
+
+#cacheMisses {
+    color:#d44a4a;
+}
+
+.value {
+    font-weight: bold;
+    margin-left: 0.4em;
+    margin-right: 0.4em;
+}
+
+.pendingActions {
+    margin:10px;
+    background-color: #f0f0f0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.pendingAction {
+    margin:5px;
+    margin-left:30px;
+    padding: 3px;
+    background-color: #d4ffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.block.hidden {
+	display: none;
+}
+
+.thinProgressStopInside {
+	height: 14px;
+	width: 14px;
+	background-color: #d44a4a;
+	border-radius: 0px;
+	margin: auto;
+}
+
+.thinProgressStop {
+	display: inline;
+	height: 30px;
+	width: 30px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #1680db;
+	background-color: white;
+	outline-style: none;
+	box-sizing: border-box;
+	margin-right: 0.7em;
+	margin-left: 0.7em;
+	margin-top: auto;
+	margin-bottom: auto;
+	border-radius: 5px;
+}
+
+.thinProgressStop:active {
+	background-color: #b1b1b1;
+}
+
+.thinProgressStop:hover {
+	border-color: black;
+	background-color: #dfdfdf;
+}
+
+.thinProgressTitle.hidden {
+	display: none;
+}
+
+.thinProgressTitle {
+	overflow: hidden;
+	color: #565656;
+	font-size: 12px;
+	/* width: calc(100% - 130px); */
+	margin-top: auto;
+	margin-bottom: auto;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.thinProgressBar.hidden {
+	display: none;
+}
+
+.thinProgressBar {
+    width: calc(100% - 15px);
+    height: 12px;
+    /* background-color: #8dbef5; */
+    background: linear-gradient(0deg, rgba(240,240,240,1) 0%, rgba(207,207,207,1) 50%, rgba(240,240,240,1) 100%);
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-width:1px;
+    border-color: #cbcbcb;
+    border-style: solid;
+}
+
+.thinProgressHandle {
+	/* background-color: #0073e6; */
+    background: linear-gradient(0deg, rgb(205, 222, 250) 0%, rgb(108, 160, 243) 50%, rgb(205, 222, 250) 100%);
+	/* width: 10%; */
+	height: 100%;
+}
+
+.progress {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}

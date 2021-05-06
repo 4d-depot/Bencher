@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>4D Bencher</title>
+
+	<!-- @start: CSS assets -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="/$lib/vendor/jquery-ui/dist/jquery-ui.min.css" />
+	<link id="mainStyleID" rel="stylesheet" href="index.css" type="text/css" />
+	<link rel="stylesheet" href="/$lib/vendor/fontawesome-free-5.13.0-web/css/all.css">
+
+	<!-- @end: CSS assets -->
+
+	<!-- @start: JS assets -->
+
+	<script src="/$lib/vendor/jquery/dist/jquery.min.js"></script>
+	<script src="/$lib/vendor/jquery-ui/dist/jquery-ui.min.js"></script>
+	<script src="/$lib/vendor/jquery-ui/dist/jquery-ui-i18n.js"></script>
+	<script src="/$lib/vendor/jquery-ui-contextmenu/jquery.ui-contextmenu.js"></script>
+	<!--  <script src="/$lib/vendor/treejs/tree.js"></script> -->
+
+
+	<script type="text/javascript" src="dist/bundle.min.js"></script>
+	<script type="text/javascript" src="index.js"></script>
+
+	<!-- @end: JS assets -->
+ 
+
+</head>
+
+<body>
+	<div class="container">
+		<div class="header">
+			<div class="title">4D Bencher</div>
+		</div>
+		<div class="admin vertical">
+			<button class="action" id="buildModel">Build Model</button>
+			<div class="builddata">
+				<button class="action" id="buildData">Build Data</button><input id="howManyRecords" type="text" placeholder="How Many Records"/>		
+			</div>
+			<div class="progress block hidden">
+				<div class="thinProgressTitle">title</div>
+				<div class="thinProgressBar">
+					<div class="thinProgressHandle"></div>
+				</div>
+				<!-- <button class="thinProgressStop"><div class="thinProgressStopInside"></div></button> -->
+			</div>
+			<div class="cache">
+				<button class="action" id="setCacheSize">Set Cache Size</button>
+				<input id="cachesize" type="text" placeholder="cache size"/>
+				<button class="action" id="preFillCache">Prefill Cache with indexes</button>
+			</div>
+			<div class="cacheinfo">
+				<div class="infotext">Current Cache Size: </div>
+				<div id="curCacheSize" class="infotext value">0</div>
+				<div class="infotext"> , used: </div>
+				<div id="usedCacheSize" class="infotext value">0</div>
+			</div>
+		</div>
+		<div class="actions">
+			<div class="startingActions">
+				<button class="action" id="getRandomEntities">Get Random Entities</button>
+				<button class="action" id="alterRandomEntities">Alter Random Entities</button>
+			</div>
+			<div class="pendingActions block hidden">
+
+			</div>
+		</div>
+		<div class="infos vertical">
+			<button class="action" id="toggleListen">Start Listening</button>
+			<div class="displayServerInfo block hidden">
+				<div class="infotext">Currently: </div>
+				<div class="infotext" id="reqPerSec">0</div>
+				<div class="infotext">requests per sec</div>
+				<div class="infotext">, Server time: </div>
+				<div class="infotext value" id="serverTime">0</div>
+				<div class="infotext">ms</div>
+			</div>
+			<div class="displayServerInfo block hidden">
+				<div class="infotext">Cache hits: </div>
+				<div class="infotext value" id="cacheHits">0</div>
+				<div class="infotext">, Cache misses: </div>
+				<div class="infotext value" id="cacheMisses">0</div>
+				<div class="infotext">, ==> Ratio:</div>
+				<div class="infotext value" id="missRatio">0</div>
+			</div>
+		</div>
+	</div>
+</body>
